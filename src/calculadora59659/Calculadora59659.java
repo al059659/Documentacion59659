@@ -1,10 +1,22 @@
 package calculadora59659;
 
- // @author reyapazc
+
+/**
+ * @author reyapazc
+ * @version 1.0
+ */
+
+/**
+ * Importar utilidad para mostrar cuadros de dialogo.
+ */
 
 import javax.swing.JOptionPane;
 
 public class Calculadora59659 {
+    
+    /**
+     * Se declara el tipo.
+     */
 
     public double resultado;
     private int resultado2;
@@ -15,11 +27,19 @@ public class Calculadora59659 {
         
     }
     
+    /**
+     * Método para valor y resultado.
+     */
+    
     public void value(int resultado) {
         
         this.resultado = resultado;
         
     }
+    
+    /**
+     * Método para la suma.
+     */
     
     public void suma(int ...numero) {
         
@@ -32,6 +52,10 @@ public class Calculadora59659 {
         }
     }
     
+    /**
+     * Método para la resta.
+     */
+    
     public void resta(int ...numero) {
         
         this.signo = "-";
@@ -43,6 +67,10 @@ public class Calculadora59659 {
         }
     }
     
+    /**
+     * Método para la multiplicación.
+     */
+    
     public void multiplicacion(int ...numero) {
         
         this.signo = "*";
@@ -53,6 +81,10 @@ public class Calculadora59659 {
             
         }
     }
+    
+    /**
+     * Método para la división.
+     */
     
     public void division(int ...numero) {
         
@@ -71,6 +103,10 @@ public class Calculadora59659 {
         }
     }
     
+    /**
+     * Método para el atributo especial de eliminar la operación anterior.
+     */
+    
     public void delete() {
         
         if(this.signo.equalsIgnoreCase("+")) {
@@ -83,6 +119,10 @@ public class Calculadora59659 {
             this.resultado *= this.numero;
         }
     }
+    
+    /**
+     * Método para el atributo especial de obtener la última respuesta.
+     */
     
     public void answer() {
         

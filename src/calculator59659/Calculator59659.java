@@ -1,12 +1,23 @@
 package calculator59659;
 
-//@author reyapazc
+ /**
+  * @author reyapazc
+  * @version 1.0
+  */
+
+/**
+ * Importa el paquete donde se encuentran los métodos para hacer funcionar el programa.
+ */
 
 import calculadora59659.Calculadora59659;
  
 public class Calculator59659 {
     
     public static void main(String[] args) {
+        
+        /**
+         * Se declaran las operaciones a realizar para el programa.
+         */
         
         Calculadora59659 calculadora59659 = new Calculadora59659();
         
